@@ -35,3 +35,26 @@ flowchart TD
     MEM --> AC
     AC --> EV[Evaluator]
     EV --> OUT[Final Output]
+
+
+AutoTask-AI/
+│
+├── app/
+│   ├── main.py
+│   ├── agent/
+│   ├── tools/
+│   ├── models/
+│   └── utils/
+│
+├── docs/
+│   └── architecture.md
+│
+├── memory/
+├── outputs/
+├── tests/
+│
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
+
